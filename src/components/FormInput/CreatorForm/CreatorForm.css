@@ -1,0 +1,15 @@
+@media screen and (max-width: 991px) {
+    .left {
+        order: 2;
+    }
+
+    .right {
+        margin-bottom: 20px;
+        min-height: 30vh;
+    }
+}
+
+.right {
+    display: grid;
+    place-items: center;
+}

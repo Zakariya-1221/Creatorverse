@@ -1,0 +1,50 @@
+.info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 13px;
+}
+
+@media(max-width: 1000px) {
+    .info {
+        grid-template-columns: 1fr;
+    }
+
+    .info > * {
+        text-align: center;
+    }
+}
+
+
+.info>* {
+    padding: 10px;
+}
+
+.name {
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.img-wrap {
+    text-align: center;
+}
+
+.img-wrap > img {
+    border-radius: 5px;
+    width: 100%;
+    border: 10px solid var(--muted-border-color);
+}
+
+.socmed > span > a {
+    margin-right: 5px;
+}
+
+.socmed > span > a:hover {
+    background-color: var(--primary) !important;
+    color: var(--card-background-color) !important;
+}
+
+.desc {
+    color: var(--contrast)
+}
