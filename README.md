@@ -3,28 +3,33 @@ Submitted by: Zakariya Ahmed
 
 About this web app: Creatorverse is a web app that allows users to showcase creators they like. Users can add creators with their names, descriptions, at least one social media link, and an optional photo. Users also have the ability to edit or delete creators as needed. Each creator has a unique link for their profile, and on the main page, all creators are listed together as cards. The app's backend is powered by Supabase, and the frontend styling is done using Picocss.
 
-Time spent: (started 6/6)
+Time spent: **👉🏿 X** hours
 
-Required Features
-The following required functionality is completed:
+## Required Features
 
- A logical component structure in React is used to create the frontend of the app
- At least five content creators are displayed on the homepage of the app
- Each content creator item includes their name, a link to their channel/page, and a short description of their content
- API calls use the async/await design pattern via Axios or fetch()
- Clicking on a content creator item takes the user to their details page, which includes their name, url, and description
- Each content creator has their own unique URL
- The user can edit a content creator to change their name, url, or description
- The user can delete a content creator
- The user can add a new content creator by entering a name, url, or description and then it is displayed on the homepage
-The following optional features are implemented:
+The following **required** functionality is completed:
 
- Picocss is used to style HTML elements
- The content creator items are displayed in a creative format, like cards instead of a list
- An image of each content creator is shown on their content creator card
+<!-- 👉🏿👉🏿👉🏿 Make sure to check off completed functionality below -->
+- [x] **A logical component structure in React is used to create the frontend of the app**
+- [x] **At least five content creators are displayed on the homepage of the app**
+- [x] **Each content creator item includes their name, a link to their channel/page, and a short description of their content**
+- [x] **API calls use the async/await design pattern via Axios or fetch()**
+- [x] **Clicking on a content creator item takes the user to their details page, which includes their name, url, and description**
+- [x] **Each content creator has their own unique URL**
+- [x] **The user can edit a content creator to change their name, url, or description**
+- [x] **The user can delete a content creator**
+- [x] **The user can add a new content creator by entering a name, url, or description and then it is displayed on the homepage**
+
+The following **optional** features are implemented:
+
+- [x] Picocss is used to style HTML elements
+- [x] The content creator items are displayed in a creative format, like cards instead of a list
+- [x] An image of each content creator is shown on their content creator card
+
+The following **additional** features are implemented:
+
+* [x] List anything else that you added to improve the site's functionality!
 The following additional features are implemented:
-
- Deployed to Vercel. Made react-router work on live deployment with vercel.json. https://creatorverse-rosy.vercel.app/
  Dynamic Light and Dark Themes utilizing Pico.css variables, managed with React's state management. Gif of dynamic theme toggle
  Form validation with intuitive UI feedback to ensure that only valid data is submitted to the database, promoting data integrity and user experience. The form checks whether the user has submitted the required information (name, description, and at least one social media link), provides feedback with error syntax and highlighting, and won't allow submission until valid inputs are entered.
  Responsive Web Design. My project features a fixed Navbar positioned at the top. To achieve this layout, I utilized React's useRef() hook to dynamically calculate the Navbar's height, which varies based on Pico.css's responsiveness. This calculation allowed me to offset the body content, ensuring it appears directly beneath the Navbar, providing a visually harmonious and user-friendly browsing experience.
