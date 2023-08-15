@@ -3,7 +3,7 @@ Submitted by: Zakariya Ahmed
 
 About this web app: Creatorverse is a web app that allows users to showcase creators they like. Users can add creators with their names, descriptions, at least one social media link, and an optional photo. Users also have the ability to edit or delete creators as needed. Each creator has a unique link for their profile, and on the main page, all creators are listed together as cards. The app's backend is powered by Supabase, and the frontend styling is done using Picocss.
 
-Time spent: **👉🏿 X** hours
+Time spent: **👉🏿 72** hours
 
 ## Required Features
 
