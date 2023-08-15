@@ -1,7 +1,7 @@
 WEB103 Prework - Creatorverse
 Submitted by: Zakariya Ahmed
 
-About this web app: Creatorverse is a web app that allows users to showcase creators they like. Users can add creators with their names, descriptions, at least one social media link, and an optional photo. Users also have the ability to edit or delete creators as needed. Each creator has a unique link for their profile, and on the main page, all creators are listed together as cards. The app's backend is powered by Supabase, and the frontend styling is done using Picocss.
+About this web app: Creatorverse is a web application designed to empower users to feature their favored creators. Users are enabled to include creators, along with their names, descriptions, at minimum one social media link, and an optional image. Additionally, users possess the capability to modify or remove creators as required. Each creator possesses an exclusive profile link, and the main page seamlessly displays all creators as cohesive cards. The application's backend is supported by Supabase, while the frontend aesthetics are crafted through the utilization of Picocss.
 
 Time spent: **👉🏿 72** hours
 
