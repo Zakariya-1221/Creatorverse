@@ -28,7 +28,7 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [x] List anything else that you added to improve the site's functionality!
+ List anything else that you added to improve the site's functionality!
 The following additional features are implemented:
 
 - [x] Dynamic Light and Dark Themes utilizing Pico.css variables, managed with React's state management. Gif of dynamic theme toggle
